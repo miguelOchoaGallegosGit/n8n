@@ -47,7 +47,8 @@
     "test:nodes": "turbo run test:nodes --concurrency=1",
     "watch": "turbo run watch --parallel",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker"
+    "worker": "./packages/cli/bin/n8n worker",
+    "ng": "node --max_old_space_size=4096 ./node_modules/.bin/ng"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
